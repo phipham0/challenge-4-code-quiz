@@ -59,14 +59,7 @@ function countdown() {
       
     }, 1000);
 
-    backEl.addEventListener("click", function(event) {
-        clearInterval(timeInterval);
-        startEl.style.display = "block";
-        highscoresEl.style.display = "none";
-        timeLeft = 90;
-        timerEl.textContent = 90;
-        correct.textContent = "";
-    })
+    
 
 
 
@@ -212,8 +205,6 @@ function renderScores() {
     
 })
 
-
-
 viewScoreEl.addEventListener("click", function(event) {
     startEl.style.display = "none";
     highscoresEl.style.display = "block";
@@ -221,6 +212,14 @@ viewScoreEl.addEventListener("click", function(event) {
     submitEl.style.display = "none";
     correct.textContent = "";
     renderScores();
+})
+
+backEl.addEventListener("click", function(event) {
+    startEl.style.display = "block";
+    highscoresEl.style.display = "none";
+    timeLeft = 90;
+    timerEl.textContent = 90;
+    correct.textContent = "";
 })
 
 
