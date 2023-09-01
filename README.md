@@ -20,10 +20,10 @@ https://phipham0.github.io/challenge-4-code-quiz/
 
 ## Usage
 
-To start, click the red "Generate Password" button. This will ask the user to insert the number of characters in the password. Be sure to enter a number 
-between 7 and 129. Anything else will be an invalid answer, and the user will be asked to enter again. After, there will be four confirms asking if the user wants
-to include a character type. Clicking "OK" on the confirm will add the character type, and clicking "Cancel" will not add the character type. If no confirms are added, the user will
-go through the list of prompts again. After all the prompts and confirms are added, the password will be generated inside the center text box.
+To start, click the Start button to go to the first question. Notice that the timer will countdown from 90 seconds. When the timer reaches 0, the quiz will end. Clicking an
+answer choice will send the user to the next question. Yielding a wrong answer will deduct 10 seconds off the timer. After all the questions are done, the user will see their 
+final score and submit their initials to the leaderboard. After, the highscore leaderboard will be displayed. This leaderboard will persist even after refreshes. Click back will 
+restart the quiz. Clicking the view highscores at the top left will take you to the leaderboard.
 
 
 ![start](./assets/images/startscreen.png)
