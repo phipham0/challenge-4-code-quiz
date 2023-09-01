@@ -16,7 +16,7 @@ Enter the directory that has the cloned repository and open (Double click) the i
 
 To access the webpage, click the link below:
 
-https://phipham0.github.io/challenge-3-password-generator/
+https://phipham0.github.io/challenge-4-code-quiz/
 
 ## Usage
 
@@ -26,12 +26,11 @@ to include a character type. Clicking "OK" on the confirm will add the character
 go through the list of prompts again. After all the prompts and confirms are added, the password will be generated inside the center text box.
 
 
-![webpage1](./assets/Images/webpage.png)
-![characterLength](./assets/Images/password-length-prompt.png)
-![lowercase](./assets/Images/lowercase.png)
-![uppercase](./assets/Images/uppercase.png)
-![numbers](./assets/Images/numbers.png)
-![special](./assets/Images/special.png)
+![start](./assets/images/startscreen.png)
+![question](./assets/images/questionscreen.png)
+![submit](./assets/images/submitscreen.png)
+![highscore](./assets/images/highscorescreen.png)
+
 
 ## License
 
